@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="cart.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="menu-items">
+          <a href="#">Men Fragrance</a>
+          <span>|</span>
+          <a href="#">Woman Fragrance</a>
+        </div>
+        <div class="logo">
+          <h1>Versatile</h1>
+        </div>
+        <div class="header-icons">
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-shopping-bag"></i>
+          <i class="fas fa-user"></i>
+        </div>
+      </div>
+    </header>
+    <main class="cart-page">
+      <div class="back-button"><a href="/index.html"> < Back </a></div>
+      <div class="cart-container">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Products</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items">
+            <!-- Items will be dynamically generated here -->
+          </tbody>
+        </table>
+        <div class="order-summary">
+          <h3>Order Summary</h3>
+          <div class="summary-item">
+            <span>Subtotal</span>
+            <span id="subtotal">0k</span>
+          </div>
+          <div class="summary-item">
+            <span>Shipping</span>
+            <span id="shipping">100k</span>
+          </div>
+          <hr />
+          <div class="summary-total">
+            <span>Total</span>
+            <span id="total">0k</span>
+          </div>
+          <button class="checkout-button">Continue</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
