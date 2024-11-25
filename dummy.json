@@ -1,0 +1,95 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "brand": "Dior",
+        "name": "Sauvage",
+        "price": 150,
+        "rating": 4.8,
+        "description": "An iconic fragrance from Dior, Sauvage combines bold and fresh scents for the modern man.",
+        "image": "parfum1.svg"
+      },
+      {
+        "id": 2,
+        "brand": "Giorgio Armani",
+        "name": "My Way",
+        "price": 300,
+        "rating": 4.9,
+        "description": "The new feminine fragrance from Giorgio Armani, MY WAY invites you to broaden your horizons.",
+        "image": "parfum2.svg"
+      },
+      {
+        "id": 3,
+        "brand": "Chanel",
+        "name": "Bleu De Chanel",
+        "price": 450,
+        "rating": 4.7,
+        "description": "A timeless fragrance from Chanel, Bleu De Chanel represents confidence and sophistication.",
+        "image": "parfum3.svg"
+      },
+      {
+        "id": 4,
+        "brand": "Chanel",
+        "name": "Le Lion",
+        "price": 500,
+        "rating": 4.6,
+        "description": "Chanel Le Lion is a luxurious fragrance that evokes strength and elegance.",
+        "image": "parfum4.svg"
+      },
+      {
+        "id": 5,
+        "brand": "Hugo Boss",
+        "name": "The Scent",
+        "price": 700,
+        "rating": 4.5,
+        "description": "Hugo Boss The Scent is a warm, seductive fragrance perfect for special occasions.",
+        "image": "parfum5.svg"
+      },
+      {
+        "id": 6,
+        "brand": "First Class",
+        "name": "Paris",
+        "price": 100,
+        "rating": 4.3,
+        "description": "First Class Paris offers a sophisticated and refreshing scent, inspired by the elegance of Parisian life.",
+        "image": "parfum6.svg"
+      },
+      {
+        "id": 7,
+        "brand": "Mint",
+        "name": "Minera",
+        "price": 120,
+        "rating": 4.2,
+        "description": "Mint Minera features a cool and revitalizing scent, perfect for everyday wear and casual occasions.",
+        "image": "parfum7.svg"
+      },
+      {
+        "id": 8,
+        "brand": "Kahf",
+        "name": "Classic",
+        "price": 200,
+        "rating": 4.4,
+        "description": "Kahf Classic is a timeless fragrance with a rich and earthy scent, embodying a sense of tradition.",
+        "image": "parfum8.svg"
+      },
+      {
+        "id": 9,
+        "brand": "Gatsby",
+        "name": "Blue",
+        "price": 250,
+        "rating": 4.5,
+        "description": "Gatsby Blue is a vibrant and energizing fragrance, designed for the modern and confident individual.",
+        "image": "parfum9.svg"
+      },
+      {
+        "id": 10,
+        "brand": "Romeo",
+        "name": "Casual Man",
+        "price": 180,
+        "rating": 4.3,
+        "description": "Romeo Casual Man delivers a fresh and relaxed scent, ideal for laid-back and comfortable moments.",
+        "image": "parfum10.svg"
+      }
+    ]
+  }
+  
