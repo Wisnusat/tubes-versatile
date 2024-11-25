@@ -471,7 +471,7 @@ header {
 
 .order-summary {
     width: 30%;
-    background: #f9f9f9;
+    background: white;
     padding: 20px;
 }
 
@@ -519,6 +519,103 @@ hr {
     margin-top: 2px;
     margin-bottom: 6px;
     display: none;
+}
+
+/* Checkout Page */
+.checkout-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.order-summary-checkout {
+    background-color: #F3AAEC;
+    border-radius: 4px;
+}
+
+.payment-section,
+.order-summary-checkout {
+    padding: 20px;
+    width: 48%;
+}
+
+.payment-section h3,
+.order-summary-checkout h3 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payment-options label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.payment-options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.card-details label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.card-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-info {
+    display: flex;
+    gap: 20px;
+}
+
+.card-info div {
+    flex: 1;
+}
+
+.order-summary-checkout .summary-item,
+.order-summary-checkout .summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.order-summary-checkout .summary-total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkout-button {
+    background-color: #B7208C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #932d93;
 }
 
 /* Responsive styles */
@@ -617,5 +714,14 @@ hr {
         padding: 0px;
         width: 100%;
         margin-top: 6px;
+    }
+
+    .checkout-container {
+        flex-direction: column;
+    }
+
+    .payment-section,
+    .order-summary {
+        width: 100%;
     }
 }
